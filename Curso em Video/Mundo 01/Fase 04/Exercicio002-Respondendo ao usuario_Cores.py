@@ -1,0 +1,6 @@
+print('\033[41m                                                    \033[m')
+print('\033[31m-\033[m\033[34m+\033[m\033[32m-\033[m\033[33m=\033[m' * 13)
+nome = str(input('\033[31mQual o seu nome?\033[m '))
+print('\033[34mPrazer em te conhecer {}.\033[m'.format(nome))
+print('\033[31m-\033[m\033[34m+\033[m\033[32m-\033[m\033[33m=\033[m' * 13)
+print('\033[41m                                                    \033[m')
