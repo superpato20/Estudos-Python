@@ -1,20 +1,14 @@
-n1 = int(input('Digite um numero: '))
-n2 = int(input('Digite outro numero: '))
-n3 = int(input('Digite mais um numero: '))
-n4 = int(input('Digite o ultimo numero: '))
-numeros = (n1, n2, n3, n4)
+num = (int(input('Digite um numero: ')),
+       int(input('Digite outro numero: ')),
+       int(input('Digite mais um valor: ')),
+       int(input('Digite o ultimo numero: ')))
 contador = 0
-if numeros in ( n1 ) % 2 == 0:
-    contador += 1
-'''if n1 % 2 == 0:
-    contador += 1
-elif n2 % 2 == 0:
-    contador += 1
-elif n3 % 2 == 0:
-    contador += 1
-elif n4 % 2 == 0:
-    contador += 1'''
-print(f'Você digitou os valores: {numeros}.'.replace(',', '').replace('(', '').replace(')', ''))
-print(f'O valor 9 apareceu {numeros.count(9)} vezes.')
-print(f'O valor 3 apareceu na {numeros.index(3) + 1}ª posição.')
-print(f'Os valores pares digitados foram {contador}')
+print(f'Você digitou os valores: {num}.'.replace(',', '').replace('(', '').replace(')', ''))
+if 9 in num:
+    print(f'O valor 9 apareceu {num.count(9)} vezes.')
+if 3 in num:
+    print(f'O valor 3 apareceu na {num.index(3) + 1}ª posição.')
+for c in num:
+    if c % 2 == 0:
+        contador += 1
+print(f'Os valor pares digitados foram {contador}.')
