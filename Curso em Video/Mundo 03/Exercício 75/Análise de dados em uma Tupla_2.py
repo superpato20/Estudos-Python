@@ -9,5 +9,8 @@ for c in numeros:
         contador += 1
 print(f'Você digitou os valores: {numeros}.'.replace(',', '').replace('(', '').replace(')', ''))
 print(f'O valor 9 apareceu {numeros.count(9)} vezes.')
-print(f'O valor 3 apareceu na {numeros.index(3) + 1}ª posição.')
+if 3 in numeros:
+    print(f'O valor 3 apareceu na {numeros.index(3) + 1}ª posição.')
+else:
+    print('O valor 3 não apareceu em nenhuma posição.')
 print(f'Os valores pares digitados foram {contador}')
