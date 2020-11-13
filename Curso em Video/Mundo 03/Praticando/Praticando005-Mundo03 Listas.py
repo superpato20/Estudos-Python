@@ -1,9 +1,9 @@
 lista = ['pão', 'biscoito', 'café', 'rosca']
 print(lista)
-lista.append('leite')
+lista.append('leite')      # adiciona elemento a lista frente no final
 print(lista)
-lista.insert(2, 'bolo')
+lista.insert(2, 'bolo')    # adiciona elemento a lista na posição requerida
 print(lista)
-del lista[3]
-lista.pop(4)
+del lista[3]               # apaga o elemento requerido da lista
+lista.pop(4)               # apaga o elemento requerido da lista
 print(lista)
