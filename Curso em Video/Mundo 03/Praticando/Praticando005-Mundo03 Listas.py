@@ -9,3 +9,4 @@ lista.pop(4)               # apaga o elemento requerido da lista
 print(lista)
 lista.remove('bolo')       # apaga o elemento especifico da lista
 print(lista)
+print(len(lista))
