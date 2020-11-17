@@ -13,4 +13,4 @@ while True:
         break
 print('-=' * 30)
 listanum.sort()
-print(f'Você digitou os valores {listanum}')
+print(f'Você digitou os valores {listanum}.'.replace('[', '').replace(']', ''))
