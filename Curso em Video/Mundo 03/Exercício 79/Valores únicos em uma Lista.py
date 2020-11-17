@@ -11,4 +11,6 @@ while True:
         continuar = str(input('Quer continuar: [S / N] ')).lower().strip()
     if continuar == 'n':
         break
-print(listanum)
+print('-=' * 30)
+listanum.sort()
+print(f'Você digitou os valores {listanum}')
