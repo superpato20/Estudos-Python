@@ -7,13 +7,12 @@ while True:
     peso = float(input('Peso: '))
 
     if peso >= maiorpeso:
-        listamaior.clear()
         listamaior.append(nome)
         listamaior.append(peso)
         maiorpeso = peso
         menorpeso = peso
-    if peso <= menorpeso:
-        listamenor.clear()
+    else:
+
         listamenor.append(nome)
         listamenor.append(peso)
         menorpeso = peso
