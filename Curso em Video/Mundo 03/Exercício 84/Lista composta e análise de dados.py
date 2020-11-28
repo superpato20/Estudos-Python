@@ -11,6 +11,7 @@ while True:
         listamaior.append(nome)
         listamaior.append(peso)
         maiorpeso = peso
+        menorpeso = peso
     if peso <= menorpeso:
         listamenor.clear()
         listamenor.append(nome)
