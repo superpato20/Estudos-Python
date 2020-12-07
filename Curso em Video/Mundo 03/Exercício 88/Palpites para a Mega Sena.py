@@ -6,7 +6,7 @@ from random import randint
 from time import sleep
 jogos = []
 a = 0
-print('-=' * 2, end='')
+print('-=' * 2, end=' ')
 print(f'Sorteando {njogos} Jogos', end=' ')
 print('-=' * 2)
 while a != njogos:
@@ -17,10 +17,3 @@ while a != njogos:
     sleep(1)
     jogos.clear()
 
-
-
-
-'''c = 0
-while c != 6:
-    for c in range(0, 7):
-        print(c)'''
