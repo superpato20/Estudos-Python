@@ -13,7 +13,8 @@ while a != njogos:
     a += 1
     for c in range(0, 6):
         jogos.append(randint(0, 60))
-    print(jogos)
-    sleep(1)
-    jogos.clear()
+    for d in range(njogos):
+        print(f'Jogo {d + 1}: {jogos}')
+        sleep(1)
+        
 
