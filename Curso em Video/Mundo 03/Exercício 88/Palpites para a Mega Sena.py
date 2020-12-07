@@ -5,10 +5,22 @@ njogos = int(input('Quantos jogos você quer que eu sorteie? '))
 from random import randint
 from time import sleep
 jogos = []
-for c in range(0, 6):
-    jogos.append(randint(0, 60))
-print('-=' * 2, end=' ')
+a = 0
+print('-=' * 2, end='')
 print(f'Sorteando {njogos} Jogos', end=' ')
 print('-=' * 2)
-sleep(1)
-print(jogos)
+while a != njogos:
+    a += 1
+    for c in range(0, 6):
+        jogos.append(randint(0, 60))
+    print(jogos)
+    sleep(1)
+    jogos.clear()
+
+
+
+
+'''c = 0
+while c != 6:
+    for c in range(0, 7):
+        print(c)'''
