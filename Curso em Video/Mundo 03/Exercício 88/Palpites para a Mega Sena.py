@@ -13,10 +13,7 @@ while a != njogos:
     a += 1
     for c in range(0, 6):
         n = (randint(1, 60))
-        if n not in jogos:
-            jogos.append(n)
-            if len(jogos) == 5:
-                n = jogos.append(randint(1, 60))
+        jogos.append(n)
     print(f'Jogo {a}: {sorted(jogos)}')
     jogos.clear()
     sleep(1)
