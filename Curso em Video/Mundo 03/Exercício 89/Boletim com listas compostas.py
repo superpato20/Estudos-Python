@@ -14,7 +14,7 @@ while True:
         continuar = str(input('Quer continuar? [S / N] ')).lower().strip()
     if continuar == 'n':
         break
-print('Nº')
+print('Nº', 'NOME', 'MÉDIA')
 print('-' * 25)
 for index, item in enumerate(listanome2):
     print(index, item)
