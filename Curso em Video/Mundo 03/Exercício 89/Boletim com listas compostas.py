@@ -22,6 +22,9 @@ for index, item in enumerate(listanome2):
 print('-' * 30)
 while True:
     notas = int(input("Mostrar notas de qual aluno? (999 interrompe): "))
-    
     if notas == 999:
         break
+    listanome3 = list()
+    listanome3.append(listanome2[notas])
+    for index, item in enumerate(listanome3):
+        print(f'Notas de {item[0]} são {item[1]} e {item[2]}')
