@@ -11,7 +11,7 @@ while True:
     listanome2.append(listanome[:])
     listanome.clear()
     continuar = ' '
-    if continuar not in 'sn':
+    while continuar not in 'sn':
         continuar = str(input('Quer continuar? [S / N] ')).lower().strip()
     if continuar == 'n':
         break
