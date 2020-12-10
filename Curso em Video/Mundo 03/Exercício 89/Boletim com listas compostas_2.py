@@ -10,5 +10,8 @@ while True:
         break
 print('-=' * 15)
 print(f'{"Nº":<4}{"Nome":<10}{"MÉDIA":>8}')
+print('-' * 30)
+for i, a in enumerate(ficha):
+    print(f'{i:<4}{a[0]:<10}{a[2]:>8.1f}')
 
 
