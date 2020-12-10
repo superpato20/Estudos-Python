@@ -19,7 +19,7 @@ print('-=' * 15)
 print('Nº', 'NOME', 'MÉDIA')
 print('-' * 30)
 for index, item in enumerate(listanome2):
-    print(index, item[0], (item[1] + item[2]) / 2)
+    print(f'{index} {item[0]:>5} {(item[1] + item[2]) / 2:>5}')
 print('-' * 30)
 while True:
     notas = int(input("Mostrar notas de qual aluno? (999 interrompe): "))
