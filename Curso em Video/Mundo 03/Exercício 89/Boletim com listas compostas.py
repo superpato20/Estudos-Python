@@ -20,3 +20,8 @@ print('-' * 30)
 for index, item in enumerate(listanome2):
     print(index, item[0], (item[1] + item[2]) / 2)
 print('-' * 30)
+while True:
+    notas = int(input("Mostrar notas de qual aluno? (999 interrompe): "))
+    
+    if notas == 999:
+        break
