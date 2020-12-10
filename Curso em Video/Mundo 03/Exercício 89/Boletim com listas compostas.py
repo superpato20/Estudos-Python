@@ -16,10 +16,11 @@ while True:
     if continuar == 'n':
         break
 print('-=' * 15)
-print('Nº', 'NOME', 'MÉDIA')
+
+print('{}  {}       {}'.format('Nº', 'NOME', 'MÉDIA'))
 print('-' * 30)
 for index, item in enumerate(listanome2):
-    print(f'{index} {item[0]:>5} {(item[1] + item[2]) / 2:>5}')
+    print(f'{index} {item[0]:>6} {(item[1] + item[2]) / 2:>9}')
 print('-' * 30)
 while True:
     notas = int(input("Mostrar notas de qual aluno? (999 interrompe): "))
