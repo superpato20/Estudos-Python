@@ -17,3 +17,7 @@ print('-' * 30)
 del dados['sexo']
 for k, v in dados.items():
     print(f'{k} = {v}')
+print('-' * 30)
+dados['peso'] = 86
+for k, v in dados.items():
+    print(f'{k} = {v}')
