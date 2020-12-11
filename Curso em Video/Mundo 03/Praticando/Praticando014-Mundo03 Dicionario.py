@@ -1,0 +1,3 @@
+estado = dict()
+brasil = list()
+
