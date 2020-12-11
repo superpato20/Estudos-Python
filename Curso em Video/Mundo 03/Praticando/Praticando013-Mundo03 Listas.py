@@ -5,4 +5,5 @@ brasil.append(estado1)
 brasil.append(estado2)
 
 print(brasil)
-
+print(brasil[0])
+print(brasil[1])
